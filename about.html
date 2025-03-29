@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleabout.css">
+    <link rel="stylesheet" href="stylemob.css">
+    <link rel="stylesheet" href="aboutmob.css">
+    <title>About</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="./icons/logo2.png" class="logo"></a>
+        </div>
+        <br>
+        <div>
+            <p><h1>Selamat datang di website Yusril</h1></p>
+            <p><h1>Welcome to Yusril website</h1></p>    
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="all-videos.html">All videos</a></li>
+                <li><a href="/lr/index.php">Login</a></li>
+                <li><a href="/lr/index.php">Register</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Content</a></li>
+            </ul>
+        </nav>    
+    </header>
+    <div class="maincontent">
+        <div class="slides" style="width: 100%; text-align: center;">
+            <div class="w3-content w3-section" style="width: 80%; text-align: center;">
+                <img class="mySlides w3-animate-zoom" src="/tsite/imgs/1x1.jpg" style="width: 100%; text-align: center;">
+                <img class="mySlides w3-animate-top" src="/tsite/imgs/2x2.jpg" style="width: 100%; text-align: center;">
+                <img class="mySlides w3-animate-bottom" src="/tsite/imgs/3x3.jpg" style="width: 100%; text-align: center;">
+                <img class="mySlides w3-animate-right" src="/tsite/imgs/4x4.jpg" style="width: 100%; text-align: center;">
+                <img class="mySlides w3-animate-left" src="/tsite/imgs/5x5.jpg" style="width: 100%; text-align: center;">
+                <img class="mySlides w3-animate-top" src="/tsite/imgs/6x6.jpg" style="width: 100%; text-align: center;">
+                <script>
+                    var myIndex = 0;
+                    carousel();
+                    
+                    function carousel() {
+                      var i;
+                      var x = document.getElementsByClassName("mySlides");
+                      for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";  
+                      }
+                      myIndex++;
+                      if (myIndex > x.length) {myIndex = 1}    
+                      x[myIndex-1].style.display = "block";  
+                      setTimeout(carousel, 2500);    
+                    }
+                </script>                
+            </div>    
+        </div>
+        <div class="about">
+            <section>
+                <article>
+                    <b><p>
+                        Hi this is Yusril, this website contains my vlogs that i shared in youtube<br>
+                        Hai ini Yusril, website ini berisi vlog saya yang saya bagikan di youtube
+                    </p></b>
+                    <br>
+                    <b><p>i'm from Indonesia basically<br>saya dari Indonesia pada dasarnya</p></b>
+                    <br>
+                    <b><p>i hope you all to enjoy those vlogs and my youtube content<br>Saya harap Anda semua menikmati vlog dan konten youtube saya</p></b>
+                    <br>
+                    <b><p>you are welcome if you want to come to visit us<br>dipersilakan jika Anda ingin datang mengunjungi kami</p></b>
+                </article>
+            </section>
+        </div>
+    </div>
+    <aside>
+        <div class="social">
+            <div>
+                <div class="sleek__social">
+                    <a href="https://facebook.com/ngu.pendobrak" target="_blank" class="btn facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <script
+                        src="https://kit.fontawesome.com/6d2ea823d0.js"
+                        crossorigin="anonymous"
+                    ></script>
+                </div>    
+                <div>
+                    <a href="https://facebook.com/ngu.pendobrak" target="_blank"><b>Facebook</b></a>
+                </div>    
+                <div class="sleek__social">
+                    <a href="https://youtube.com/channel/UCcod1B2ORYYGZbEEQLOlmmQ/featured" target="_blank" class="btn youtube">
+                      <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://youtube.com/channel/UCcod1B2ORYYGZbEEQLOlmmQ/featured" target="_blank"><b>Youtube</b></a>
+                </div>    
+                <div class="sleek__social">
+                    <a href="https://instagram.com/yuges208" target="_blank" class="btn instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>          
+                </div>
+                <div>
+                    <a href="https://instagram.com/yuges208" target="_blank"><b>Instagram</b></a>
+                </div>    
+            </div>
+        </div>
+    </aside>
+    <footer>
+        <div>
+            <p>@CopyRight 2021
+                MUH. Yusril
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,35 @@
+@media screen and (max-width: 490px) {
+    .slides {
+        width: 100%;
+        height: 300px;
+    }
+    
+}
+@media screen and (max-width: 420px) {
+    .slides {
+        width: 100%;
+        height: 250px;
+    }
+    
+}
+@media screen and (max-width: 370px) {
+    .slides {
+        width: 100%;
+        height: 210px;
+    }
+    
+}
+@media screen and (max-width: 300px) {
+    .slides {
+        width: 100%;
+        height: 190px;
+    }
+    
+}
+@media screen and (max-width: 270px) {
+    .slides {
+        width: 100%;
+        height: 170px;
+    }
+    
+}
